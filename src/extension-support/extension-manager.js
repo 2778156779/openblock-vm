@@ -25,8 +25,7 @@ const builtinExtensions = {
     music: () => require('../extensions/scratch3_music'),
     text2speech: () => require('../extensions/scratch3_text2speech'),
     translate: () => require('../extensions/scratch3_translate'),
-    videoSensing: () => require('../extensions/scratch3_video_sensing'),
-    makeymakey: () => require('../extensions/scratch3_makeymakey')
+    videoSensing: () => require('../extensions/scratch3_video_sensing')
 };
 
 const builtinDevices = {
@@ -35,9 +34,6 @@ const builtinDevices = {
     arduinoNano: () => require('../devices/arduinoUno/arduinoNano'),
     arduinoUnoUltra: () => require('../devices/arduinoUno/arduinoUnoUltra'),
     arduinoUnoSE: () => require('../devices/arduinoUno/arduinoUnoSE'),
-    // Arduino Leonardo
-    arduinoLeonardo: () => require('../devices/arduinoLeonardo/arduinoLeonardo'),
-    makeyMakey: () => require('../devices/arduinoLeonardo/makeyMakey'),
     // Arduino Mega2560
     arduinoMega2560: () => require('../devices/arduinoMega2560/arduinoMega2560'),
     // Arduino Uno R4 Minima
