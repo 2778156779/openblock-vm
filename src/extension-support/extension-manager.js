@@ -34,12 +34,6 @@ const builtinDevices = {
     arduinoNano: () => require('../devices/arduinoUno/arduinoNano'),
     arduinoUnoUltra: () => require('../devices/arduinoUno/arduinoUnoUltra'),
     arduinoUnoSE: () => require('../devices/arduinoUno/arduinoUnoSE'),
-    // Arduino Mega2560
-    arduinoMega2560: () => require('../devices/arduinoMega2560/arduinoMega2560'),
-    // Arduino Uno R4 Minima
-    arduinoUnoR4Minima: () => require('../devices/arduinoUnoR4Minima/arduinoUnoR4Minima'),
-    // Arduino Uno R4 WiFi
-    arduinoUnoR4Wifi: () => require('../devices/arduinoUnoR4Wifi/arduinoUnoR4Wifi'),
     // Esp32
     arduinoEsp32: () => require('../devices/arduinoEsp32/arduinoEsp32'),
     // Esp32-S3
@@ -47,10 +41,6 @@ const builtinDevices = {
     // Esp8266
     arduinoEsp8266: () => require('../devices/arduinoEsp8266/arduinoEsp8266'),
     arduinoEsp8266NodeMCU: () => require('../devices/arduinoEsp8266/arduinoEsp8266NodeMCU'),
-    // K210
-    arduinoK210: () => require('../devices/arduinoK210/arduinoK210'),
-    arduinoK210MaixDock: () => require('../devices/arduinoK210/arduinoK210MaixDock'),
-    arduinoK210Maixduino: () => require('../devices/arduinoK210/arduinoK210Maixduino'),
     // Raspberry Pi Pico
     arduinoRaspberryPiPico: () => require('../devices/arduinoRaspberryPiPico/arduinoRaspberryPiPico'),
     // Raspberry Pi Pico W
@@ -58,10 +48,7 @@ const builtinDevices = {
     // Raspberry Pi Pico 2
     arduinoRaspberryPiPico2: () => require('../devices/arduinoRaspberryPiPico2/arduinoRaspberryPiPico2'),
     // Raspberry Pi Pico 2W
-    arduinoRaspberryPiPico2W: () => require('../devices/arduinoRaspberryPiPico2W/arduinoRaspberryPiPico2W'),
-    // Microbit
-    microbit: () => require('../devices/microbit/microbit'),
-    microbitV2: () => require('../devices/microbit/microbitV2')
+    arduinoRaspberryPiPico2W: () => require('../devices/arduinoRaspberryPiPico2W/arduinoRaspberryPiPico2W')
 
     // TODO: transform these to device extension.
     // wedo2: () => require('../extensions/scratch3_wedo2'),
